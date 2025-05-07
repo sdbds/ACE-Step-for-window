@@ -174,6 +174,7 @@ cython_debug/
 #.idea/
 *.txt
 !requirements.txt
+!requirements-uv.txt
 *.log
 *.flac
 minio_config.yaml

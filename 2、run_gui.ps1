@@ -23,7 +23,7 @@ elseif (Test-Path "./.venv/bin/activate") {
 
 $Env:HF_HOME = "huggingface"
 $Env:TORCH_HOME= "torch"
-$Env:HF_ENDPOINT = "https://hf-mirror.com"
+#$Env:HF_ENDPOINT = "https://hf-mirror.com"
 $Env:XFORMERS_FORCE_DISABLE_TRITON = "1"
 
 python app.py
